@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ADRPBF.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>0A3E1A90DBAA6B45DB9624AF1CA175D46393474D</string>
+				<key>dateExpires</key>
+				<string>5/6/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>A9M3WT593R.com.pension.ADRPBF</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>A9M3WT593R</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>A9M3WT593R.com.pension.ADRPBF</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>ADRPBF.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>3385b0e2-ff6b-441f-a5d7-a9d319a15849</string>
+				<key>name</key>
+				<string>Krishna_PraveenAdhoc</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>A9M3WT593R</string>
+				<key>name</key>
+				<string>Abu Dhabi Retirement Pensions &amp; Benefits Fund</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

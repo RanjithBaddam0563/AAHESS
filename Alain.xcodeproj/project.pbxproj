@@ -3,29 +3,175 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44897AB04525B768BF996087 /* Pods_Alain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94449F00E3BC1B1BA122840 /* Pods_Alain.framework */; };
+		D50FD14524D43B5300711826 /* BadgeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50FD14224D43B5100711826 /* BadgeBarButtonItem.swift */; };
+		D50FD14624D43B5300711826 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50FD14324D43B5200711826 /* File.swift */; };
+		D50FD14724D43B5300711826 /* BadgeSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50FD14424D43B5300711826 /* BadgeSwift.swift */; };
+		D513462124BAC74000D2B6DE /* LeaveListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513462024BAC74000D2B6DE /* LeaveListsTableViewCell.swift */; };
+		D513462424BADB5B00D2B6DE /* businessTravelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513462324BADB5B00D2B6DE /* businessTravelListViewController.swift */; };
+		D5150AE72473ED6700DCC294 /* sideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5150AE62473ED6700DCC294 /* sideMenuViewController.swift */; };
+		D51C6FBA247BF38E00100D12 /* Allowance_ReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C6FB9247BF38E00100D12 /* Allowance_ReqViewController.swift */; };
+		D51C6FBD247BF50600100D12 /* BusinessTravelReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C6FBC247BF50600100D12 /* BusinessTravelReqViewController.swift */; };
+		D51C6FC0247BF56800100D12 /* LeaveReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C6FBF247BF56800100D12 /* LeaveReqViewController.swift */; };
+		D524E53924D516E800BE6D88 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524E53824D516E800BE6D88 /* NotificationsViewController.swift */; };
+		D524E53B24D5170300BE6D88 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524E53A24D5170300BE6D88 /* NotificationsTableViewCell.swift */; };
+		D52A10E624C3DC9700D20FE8 /* DMSApprovalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A10E524C3DC9700D20FE8 /* DMSApprovalCollectionViewCell.swift */; };
+		D52B5B4724BEB2470007FE3E /* AllowanceReqViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B5B4624BEB2470007FE3E /* AllowanceReqViewViewController.swift */; };
+		D52B5B4A24BECAAA0007FE3E /* BusinessTravelViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B5B4924BECAAA0007FE3E /* BusinessTravelViewViewController.swift */; };
+		D52B5B4D24BEF5550007FE3E /* LeaveRequestViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B5B4C24BEF5540007FE3E /* LeaveRequestViewViewController.swift */; };
+		D53FEC5724B6B76200A9632B /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53FEC5624B6B76200A9632B /* DocumentTableViewCell.swift */; };
+		D53FEC5A24B6BBBF00A9632B /* salarySlipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53FEC5924B6BBBF00A9632B /* salarySlipsViewController.swift */; };
+		D53FEC5C24B71DA100A9632B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53FEC5B24B71DA100A9632B /* BaseModel.swift */; };
+		D5428B7824D9023E0094CCF8 /* NotiBusinessTravelReqApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5428B7724D9023E0094CCF8 /* NotiBusinessTravelReqApprovalViewController.swift */; };
 		D54C53182472667A0017A431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C53172472667A0017A431 /* AppDelegate.swift */; };
-		D54C531A2472667A0017A431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C53192472667A0017A431 /* SceneDelegate.swift */; };
 		D54C531C2472667A0017A431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C531B2472667A0017A431 /* ViewController.swift */; };
 		D54C531F2472667A0017A431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54C531D2472667A0017A431 /* Main.storyboard */; };
 		D54C53222472667A0017A431 /* Alain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D54C53202472667A0017A431 /* Alain.xcdatamodeld */; };
 		D54C53242472668D0017A431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54C53232472668D0017A431 /* Assets.xcassets */; };
 		D54C53272472668D0017A431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54C53252472668D0017A431 /* LaunchScreen.storyboard */; };
+		D54C532F2472CDBE0017A431 /* BorderColorTextfiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C532E2472CDBE0017A431 /* BorderColorTextfiled.swift */; };
+		D54C53312472CE820017A431 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54C53302472CE820017A431 /* FormTextField.swift */; };
+		D55A604E24B9795B002166D7 /* LeavesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55A604D24B9795B002166D7 /* LeavesListViewController.swift */; };
+		D567906B247A44C30093011A /* reimbursementReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567906A247A44C30093011A /* reimbursementReqViewController.swift */; };
+		D567906D247A51DA0093011A /* TableviewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567906C247A51DA0093011A /* TableviewAnimation.swift */; };
+		D5679070247A56DE0093011A /* formalitiesReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567906F247A56DE0093011A /* formalitiesReqViewController.swift */; };
+		D56D19A224A2FDBA008540C8 /* TextFiledAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D19A124A2FDBA008540C8 /* TextFiledAlertExtension.swift */; };
+		D56D19A424A314AE008540C8 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D19A324A314AE008540C8 /* AlertExtension.swift */; };
+		D5702D2124D0580B00E2480F /* NotiAllowanceApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5702D2024D0580B00E2480F /* NotiAllowanceApprovalViewController.swift */; };
+		D5702D2324D06F0A00E2480F /* NotiLeaveRequestApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5702D2224D06F0A00E2480F /* NotiLeaveRequestApprovalViewController.swift */; };
+		D5702D2524D0791500E2480F /* NotiDMSReqApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5702D2424D0791500E2480F /* NotiDMSReqApprovalViewController.swift */; };
+		D571936A25F629E800000C9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D571936925F629E700000C9C /* GoogleService-Info.plist */; };
+		D58076EF24C010EE008AC4B1 /* webViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58076EE24C010EE008AC4B1 /* webViewViewController.swift */; };
+		D58076F124C046F7008AC4B1 /* PickerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58076F024C046F7008AC4B1 /* PickerExtension.swift */; };
+		D584966824D1451C00431F2D /* ApprovalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584966724D1451C00431F2D /* ApprovalTableViewCell.swift */; };
+		D584966A24D1683F00431F2D /* NotiReimbursmentApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584966924D1683F00431F2D /* NotiReimbursmentApprovalViewController.swift */; };
+		D586424224D2C4DC002219AA /* NotiFormalityApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586424124D2C4DB002219AA /* NotiFormalityApprovalViewController.swift */; };
+		D5866CAE24BC0BEE006C5B23 /* BusinessTravelListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5866CAD24BC0BEE006C5B23 /* BusinessTravelListsTableViewCell.swift */; };
+		D5866CB124BC182A006C5B23 /* allowanceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5866CB024BC182A006C5B23 /* allowanceListViewController.swift */; };
+		D5866CB324BC1865006C5B23 /* allowanceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5866CB224BC1865006C5B23 /* allowanceListTableViewCell.swift */; };
+		D5866CB624BC1E1E006C5B23 /* ReimbursmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5866CB524BC1E1E006C5B23 /* ReimbursmentListViewController.swift */; };
+		D5866CB824BC1E88006C5B23 /* ReimbursmentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5866CB724BC1E88006C5B23 /* ReimbursmentListTableViewCell.swift */; };
+		D589E514247383440065BD8E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589E513247383440065BD8E /* CustomTableViewCell.swift */; };
+		D589E516247383830065BD8E /* NotifiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589E515247383830065BD8E /* NotifiViewController.swift */; };
+		D589E5192473B07C0065BD8E /* dmsReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589E5182473B07C0065BD8E /* dmsReqViewController.swift */; };
+		D58C3E48251C5947000FD134 /* ItSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C3E47251C5947000FD134 /* ItSupportViewController.swift */; };
+		D58C3E4B251C5B1F000FD134 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C3E4A251C5B1F000FD134 /* TrainingViewController.swift */; };
+		D58D2C1E24B45D1000F2BF95 /* profileDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C1D24B45D1000F2BF95 /* profileDashboardViewController.swift */; };
+		D58D2C2024B45EC000F2BF95 /* profileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C1F24B45EC000F2BF95 /* profileCollectionViewCell.swift */; };
+		D58D2C2324B5871200F2BF95 /* generalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C2224B5871200F2BF95 /* generalInfoViewController.swift */; };
+		D58D2C2624B5A77200F2BF95 /* personalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C2524B5A77200F2BF95 /* personalInfoViewController.swift */; };
+		D58D2C2924B5C00000F2BF95 /* AccountingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C2824B5C00000F2BF95 /* AccountingInfoViewController.swift */; };
+		D58D2C2C24B5C50000F2BF95 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C2B24B5C50000F2BF95 /* DocumentsViewController.swift */; };
+		D5919EA024BD6B2900DBD23B /* MyDMSReqViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5919E9F24BD6B2900DBD23B /* MyDMSReqViewViewController.swift */; };
+		D5919EA224BD6D2000DBD23B /* MyDMSReqViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5919EA124BD6D2000DBD23B /* MyDMSReqViewTableViewCell.swift */; };
+		D5919EA424BDDAA400DBD23B /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5919EA324BDDAA300DBD23B /* CustomClass.swift */; };
+		D5919EA724BDE98C00DBD23B /* ReimbursmentReqViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5919EA624BDE98C00DBD23B /* ReimbursmentReqViewViewController.swift */; };
+		D59246A325009653009B3F09 /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59246A225009653009B3F09 /* forgotPasswordViewController.swift */; };
+		D5A2EE22248DF1CC00F386FF /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2EE21248DF1CB00F386FF /* ApiConstants.swift */; };
+		D5A2EE29248E368800F386FF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2EE28248E368800F386FF /* NetworkManager.swift */; };
+		D5B7B3E724BC282900BB0DAD /* DMSListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7B3E624BC282900BB0DAD /* DMSListViewController.swift */; };
+		D5B7B3E924BC29B500BB0DAD /* DMSListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7B3E824BC29B500BB0DAD /* DMSListTableViewCell.swift */; };
+		D5C2FA51251CBA2900479365 /* TrainingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2FA50251CBA2900479365 /* TrainingListViewController.swift */; };
+		D5C2FA53251CBA4C00479365 /* ItsupportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2FA52251CBA4C00479365 /* ItsupportListViewController.swift */; };
+		D5C6159824C6EE9200EEA3AE /* formalityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6159724C6EE9200EEA3AE /* formalityListViewController.swift */; };
+		D5C6159A24C6EF4700EEA3AE /* formalityListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6159924C6EF4700EEA3AE /* formalityListTableViewCell.swift */; };
+		D5C6159D24C6F30900EEA3AE /* formalityViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C6159C24C6F30900EEA3AE /* formalityViewViewController.swift */; };
+		D5EBBAB5247A664200084DD3 /* DMSReqApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EBBAB4247A664200084DD3 /* DMSReqApprovalViewController.swift */; };
+		D5EC22C9252C28AB00A7F0E2 /* trainingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC22C8252C28AB00A7F0E2 /* trainingListTableViewCell.swift */; };
+		D5EC22CB252C2E5200A7F0E2 /* ItSupportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC22CA252C2E5200A7F0E2 /* ItSupportTableViewCell.swift */; };
+		D5EC22CF252C351900A7F0E2 /* TrainingReqViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC22CE252C351900A7F0E2 /* TrainingReqViewViewController.swift */; };
+		D5EC22D1252C353200A7F0E2 /* ItSupportReqViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC22D0252C353200A7F0E2 /* ItSupportReqViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D54C53142472667A0017A431 /* Alain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89246EFFD42833C32BB4857 /* Pods-Alain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alain.debug.xcconfig"; path = "Target Support Files/Pods-Alain/Pods-Alain.debug.xcconfig"; sourceTree = "<group>"; };
+		C94449F00E3BC1B1BA122840 /* Pods_Alain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50FD14224D43B5100711826 /* BadgeBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBarButtonItem.swift; sourceTree = "<group>"; };
+		D50FD14324D43B5200711826 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D50FD14424D43B5300711826 /* BadgeSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSwift.swift; sourceTree = "<group>"; };
+		D513462024BAC74000D2B6DE /* LeaveListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveListsTableViewCell.swift; sourceTree = "<group>"; };
+		D513462324BADB5B00D2B6DE /* businessTravelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = businessTravelListViewController.swift; sourceTree = "<group>"; };
+		D5150AE62473ED6700DCC294 /* sideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuViewController.swift; sourceTree = "<group>"; };
+		D51C6FB9247BF38E00100D12 /* Allowance_ReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allowance_ReqViewController.swift; sourceTree = "<group>"; };
+		D51C6FBC247BF50600100D12 /* BusinessTravelReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTravelReqViewController.swift; sourceTree = "<group>"; };
+		D51C6FBF247BF56800100D12 /* LeaveReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveReqViewController.swift; sourceTree = "<group>"; };
+		D524E53824D516E800BE6D88 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		D524E53A24D5170300BE6D88 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		D52A10E524C3DC9700D20FE8 /* DMSApprovalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSApprovalCollectionViewCell.swift; sourceTree = "<group>"; };
+		D52B5B4624BEB2470007FE3E /* AllowanceReqViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowanceReqViewViewController.swift; sourceTree = "<group>"; };
+		D52B5B4924BECAAA0007FE3E /* BusinessTravelViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTravelViewViewController.swift; sourceTree = "<group>"; };
+		D52B5B4C24BEF5540007FE3E /* LeaveRequestViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRequestViewViewController.swift; sourceTree = "<group>"; };
+		D53FEC5624B6B76200A9632B /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
+		D53FEC5924B6BBBF00A9632B /* salarySlipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salarySlipsViewController.swift; sourceTree = "<group>"; };
+		D53FEC5B24B71DA100A9632B /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		D5428B7724D9023E0094CCF8 /* NotiBusinessTravelReqApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiBusinessTravelReqApprovalViewController.swift; sourceTree = "<group>"; };
+		D54C53142472667A0017A431 /* AAH-ESS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAH-ESS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54C53172472667A0017A431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D54C53192472667A0017A431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D54C531B2472667A0017A431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D54C531E2472667A0017A431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D54C53212472667A0017A431 /* Alain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alain.xcdatamodel; sourceTree = "<group>"; };
 		D54C53232472668D0017A431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54C53262472668D0017A431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54C53282472668D0017A431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54C532E2472CDBE0017A431 /* BorderColorTextfiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderColorTextfiled.swift; sourceTree = "<group>"; };
+		D54C53302472CE820017A431 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		D55A604D24B9795B002166D7 /* LeavesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeavesListViewController.swift; sourceTree = "<group>"; };
+		D567906A247A44C30093011A /* reimbursementReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reimbursementReqViewController.swift; sourceTree = "<group>"; };
+		D567906C247A51DA0093011A /* TableviewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewAnimation.swift; sourceTree = "<group>"; };
+		D567906F247A56DE0093011A /* formalitiesReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalitiesReqViewController.swift; sourceTree = "<group>"; };
+		D56CA97925753077001DA674 /* AAH-ESS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AAH-ESS.entitlements"; sourceTree = "<group>"; };
+		D56D19A124A2FDBA008540C8 /* TextFiledAlertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFiledAlertExtension.swift; sourceTree = "<group>"; };
+		D56D19A324A314AE008540C8 /* AlertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		D5702D2024D0580B00E2480F /* NotiAllowanceApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiAllowanceApprovalViewController.swift; sourceTree = "<group>"; };
+		D5702D2224D06F0A00E2480F /* NotiLeaveRequestApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiLeaveRequestApprovalViewController.swift; sourceTree = "<group>"; };
+		D5702D2424D0791500E2480F /* NotiDMSReqApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiDMSReqApprovalViewController.swift; sourceTree = "<group>"; };
+		D571936925F629E700000C9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D58076EE24C010EE008AC4B1 /* webViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewViewController.swift; sourceTree = "<group>"; };
+		D58076F024C046F7008AC4B1 /* PickerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerExtension.swift; sourceTree = "<group>"; };
+		D584966724D1451C00431F2D /* ApprovalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovalTableViewCell.swift; sourceTree = "<group>"; };
+		D584966924D1683F00431F2D /* NotiReimbursmentApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiReimbursmentApprovalViewController.swift; sourceTree = "<group>"; };
+		D586424124D2C4DB002219AA /* NotiFormalityApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiFormalityApprovalViewController.swift; sourceTree = "<group>"; };
+		D5866CAD24BC0BEE006C5B23 /* BusinessTravelListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTravelListsTableViewCell.swift; sourceTree = "<group>"; };
+		D5866CB024BC182A006C5B23 /* allowanceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allowanceListViewController.swift; sourceTree = "<group>"; };
+		D5866CB224BC1865006C5B23 /* allowanceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allowanceListTableViewCell.swift; sourceTree = "<group>"; };
+		D5866CB524BC1E1E006C5B23 /* ReimbursmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursmentListViewController.swift; sourceTree = "<group>"; };
+		D5866CB724BC1E88006C5B23 /* ReimbursmentListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursmentListTableViewCell.swift; sourceTree = "<group>"; };
+		D589E513247383440065BD8E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D589E515247383830065BD8E /* NotifiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiViewController.swift; sourceTree = "<group>"; };
+		D589E5182473B07C0065BD8E /* dmsReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dmsReqViewController.swift; sourceTree = "<group>"; };
+		D58C3E47251C5947000FD134 /* ItSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItSupportViewController.swift; sourceTree = "<group>"; };
+		D58C3E4A251C5B1F000FD134 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		D58D2C1D24B45D1000F2BF95 /* profileDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDashboardViewController.swift; sourceTree = "<group>"; };
+		D58D2C1F24B45EC000F2BF95 /* profileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCollectionViewCell.swift; sourceTree = "<group>"; };
+		D58D2C2224B5871200F2BF95 /* generalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalInfoViewController.swift; sourceTree = "<group>"; };
+		D58D2C2524B5A77200F2BF95 /* personalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalInfoViewController.swift; sourceTree = "<group>"; };
+		D58D2C2824B5C00000F2BF95 /* AccountingInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingInfoViewController.swift; sourceTree = "<group>"; };
+		D58D2C2B24B5C50000F2BF95 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
+		D5919E9F24BD6B2900DBD23B /* MyDMSReqViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDMSReqViewViewController.swift; sourceTree = "<group>"; };
+		D5919EA124BD6D2000DBD23B /* MyDMSReqViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDMSReqViewTableViewCell.swift; sourceTree = "<group>"; };
+		D5919EA324BDDAA300DBD23B /* CustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		D5919EA624BDE98C00DBD23B /* ReimbursmentReqViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursmentReqViewViewController.swift; sourceTree = "<group>"; };
+		D59246A225009653009B3F09 /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		D5A2EE21248DF1CB00F386FF /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		D5A2EE23248DF70500F386FF /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		D5A2EE28248E368800F386FF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D5B7B3E624BC282900BB0DAD /* DMSListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSListViewController.swift; sourceTree = "<group>"; };
+		D5B7B3E824BC29B500BB0DAD /* DMSListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSListTableViewCell.swift; sourceTree = "<group>"; };
+		D5C2FA50251CBA2900479365 /* TrainingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingListViewController.swift; sourceTree = "<group>"; };
+		D5C2FA52251CBA4C00479365 /* ItsupportListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsupportListViewController.swift; sourceTree = "<group>"; };
+		D5C6159724C6EE9200EEA3AE /* formalityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalityListViewController.swift; sourceTree = "<group>"; };
+		D5C6159924C6EF4700EEA3AE /* formalityListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalityListTableViewCell.swift; sourceTree = "<group>"; };
+		D5C6159C24C6F30900EEA3AE /* formalityViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formalityViewViewController.swift; sourceTree = "<group>"; };
+		D5EBBAB4247A664200084DD3 /* DMSReqApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSReqApprovalViewController.swift; sourceTree = "<group>"; };
+		D5EC22C8252C28AB00A7F0E2 /* trainingListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingListTableViewCell.swift; sourceTree = "<group>"; };
+		D5EC22CA252C2E5200A7F0E2 /* ItSupportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItSupportTableViewCell.swift; sourceTree = "<group>"; };
+		D5EC22CE252C351900A7F0E2 /* TrainingReqViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingReqViewViewController.swift; sourceTree = "<group>"; };
+		D5EC22D0252C353200A7F0E2 /* ItSupportReqViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItSupportReqViewViewController.swift; sourceTree = "<group>"; };
+		F9CBF1E23625C179F6F201BD /* Pods-Alain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alain.release.xcconfig"; path = "Target Support Files/Pods-Alain/Pods-Alain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +179,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44897AB04525B768BF996087 /* Pods_Alain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CCBCAE71620A20DEFFAEB4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B89246EFFD42833C32BB4857 /* Pods-Alain.debug.xcconfig */,
+				F9CBF1E23625C179F6F201BD /* Pods-Alain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D513462224BADB2900D2B6DE /* Business Travel */ = {
+			isa = PBXGroup;
+			children = (
+				D513462324BADB5B00D2B6DE /* businessTravelListViewController.swift */,
+				D5866CAD24BC0BEE006C5B23 /* BusinessTravelListsTableViewCell.swift */,
+			);
+			path = "Business Travel";
+			sourceTree = "<group>";
+		};
+		D5150AE52473ED4300DCC294 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D5150AE62473ED6700DCC294 /* sideMenuViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		D51C6FB8247BF2E000100D12 /* Allowance_Req */ = {
+			isa = PBXGroup;
+			children = (
+				D51C6FB9247BF38E00100D12 /* Allowance_ReqViewController.swift */,
+			);
+			name = Allowance_Req;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D51C6FBB247BF4E600100D12 /* BussinessTravelReq */ = {
+			isa = PBXGroup;
+			children = (
+				D51C6FBC247BF50600100D12 /* BusinessTravelReqViewController.swift */,
+			);
+			path = BussinessTravelReq;
+			sourceTree = "<group>";
+		};
+		D51C6FBE247BF55600100D12 /* LeaveReq */ = {
+			isa = PBXGroup;
+			children = (
+				D51C6FBF247BF56800100D12 /* LeaveReqViewController.swift */,
+			);
+			path = LeaveReq;
+			sourceTree = "<group>";
+		};
+		D524E53724D516BA00BE6D88 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				D524E53824D516E800BE6D88 /* NotificationsViewController.swift */,
+				D524E53A24D5170300BE6D88 /* NotificationsTableViewCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		D52B5B4524BEB2170007FE3E /* Allowance Request */ = {
+			isa = PBXGroup;
+			children = (
+				D52B5B4624BEB2470007FE3E /* AllowanceReqViewViewController.swift */,
+			);
+			path = "Allowance Request";
+			sourceTree = "<group>";
+		};
+		D52B5B4824BECA860007FE3E /* BusinessTravelRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D52B5B4924BECAAA0007FE3E /* BusinessTravelViewViewController.swift */,
+			);
+			path = BusinessTravelRequest;
+			sourceTree = "<group>";
+		};
+		D52B5B4B24BEF5340007FE3E /* Leave Request */ = {
+			isa = PBXGroup;
+			children = (
+				D52B5B4C24BEF5540007FE3E /* LeaveRequestViewViewController.swift */,
+			);
+			path = "Leave Request";
+			sourceTree = "<group>";
+		};
+		D53FEC5824B6BB9900A9632B /* Salary Slips */ = {
+			isa = PBXGroup;
+			children = (
+				D53FEC5924B6BBBF00A9632B /* salarySlipsViewController.swift */,
+			);
+			path = "Salary Slips";
+			sourceTree = "<group>";
+		};
 		D54C530B2472667A0017A431 = {
 			isa = PBXGroup;
 			children = (
+				D59246A225009653009B3F09 /* forgotPasswordViewController.swift */,
+				D52A10E524C3DC9700D20FE8 /* DMSApprovalCollectionViewCell.swift */,
+				D5A2EE28248E368800F386FF /* NetworkManager.swift */,
+				D56D19A124A2FDBA008540C8 /* TextFiledAlertExtension.swift */,
+				D56D19A324A314AE008540C8 /* AlertExtension.swift */,
+				D5919EA324BDDAA300DBD23B /* CustomClass.swift */,
 				D54C53162472667A0017A431 /* Alain */,
 				D54C53152472667A0017A431 /* Products */,
+				9CCBCAE71620A20DEFFAEB4D /* Pods */,
+				E86BD503C5B5196A19740C10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D54C53152472667A0017A431 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D54C53142472667A0017A431 /* Alain.app */,
+				D54C53142472667A0017A431 /* AAH-ESS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +305,297 @@
 		D54C53162472667A0017A431 /* Alain */ = {
 			isa = PBXGroup;
 			children = (
+				D56CA97925753077001DA674 /* AAH-ESS.entitlements */,
+				D58C3E49251C5B0A000FD134 /* Training */,
+				D58C3E46251C5915000FD134 /* It-Support */,
+				D524E53724D516BA00BE6D88 /* Notifications */,
+				D50FD14224D43B5100711826 /* BadgeBarButtonItem.swift */,
+				D50FD14424D43B5300711826 /* BadgeSwift.swift */,
+				D50FD14324D43B5200711826 /* File.swift */,
+				D5702D1F24D0579B00E2480F /* NotificationApproval */,
+				D5919E9D24BD6AC000DBD23B /* RequestViews */,
+				D55A604A24B978FD002166D7 /* Request */,
+				D58D2C1C24B45CC200F2BF95 /* ProfileDashboard */,
+				D5A2EE23248DF70500F386FF /* BridgeHeader.h */,
+				D5A2EE21248DF1CB00F386FF /* ApiConstants.swift */,
+				D51C6FBE247BF55600100D12 /* LeaveReq */,
+				D51C6FBB247BF4E600100D12 /* BussinessTravelReq */,
+				D51C6FB8247BF2E000100D12 /* Allowance_Req */,
+				D5EBBAB3247A660800084DD3 /* DMS_Req_Approval */,
+				D567906E247A56B60093011A /* FormalitiesReq */,
+				D5679069247A44600093011A /* ReimursementReq */,
+				D5150AE52473ED4300DCC294 /* SideMenu */,
+				D589E5172473B0600065BD8E /* DMS Request */,
 				D54C53172472667A0017A431 /* AppDelegate.swift */,
-				D54C53192472667A0017A431 /* SceneDelegate.swift */,
+				D58076F024C046F7008AC4B1 /* PickerExtension.swift */,
 				D54C531B2472667A0017A431 /* ViewController.swift */,
 				D54C531D2472667A0017A431 /* Main.storyboard */,
 				D54C53232472668D0017A431 /* Assets.xcassets */,
 				D54C53252472668D0017A431 /* LaunchScreen.storyboard */,
 				D54C53282472668D0017A431 /* Info.plist */,
 				D54C53202472667A0017A431 /* Alain.xcdatamodeld */,
+				D54C532E2472CDBE0017A431 /* BorderColorTextfiled.swift */,
+				D54C53302472CE820017A431 /* FormTextField.swift */,
+				D589E513247383440065BD8E /* CustomTableViewCell.swift */,
+				D589E515247383830065BD8E /* NotifiViewController.swift */,
+				D567906C247A51DA0093011A /* TableviewAnimation.swift */,
+				D53FEC5B24B71DA100A9632B /* BaseModel.swift */,
+				D58076EE24C010EE008AC4B1 /* webViewViewController.swift */,
 			);
 			path = Alain;
+			sourceTree = "<group>";
+		};
+		D55A604A24B978FD002166D7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2FA4F251CB9E700479365 /* ItSupportList */,
+				D5C2FA4E251CB9DA00479365 /* TrainingList */,
+				D5C6159624C6EE3D00EEA3AE /* Formality list */,
+				D5B7B3E524BC27E100BB0DAD /* DMS List */,
+				D5866CB424BC1DFA006C5B23 /* Reimbursment List */,
+				D5866CAF24BC1803006C5B23 /* Allowance List */,
+				D513462224BADB2900D2B6DE /* Business Travel */,
+				D55A604B24B97909002166D7 /* Leaves */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D55A604B24B97909002166D7 /* Leaves */ = {
+			isa = PBXGroup;
+			children = (
+				D55A604D24B9795B002166D7 /* LeavesListViewController.swift */,
+				D513462024BAC74000D2B6DE /* LeaveListsTableViewCell.swift */,
+			);
+			path = Leaves;
+			sourceTree = "<group>";
+		};
+		D5679069247A44600093011A /* ReimursementReq */ = {
+			isa = PBXGroup;
+			children = (
+				D567906A247A44C30093011A /* reimbursementReqViewController.swift */,
+			);
+			path = ReimursementReq;
+			sourceTree = "<group>";
+		};
+		D567906E247A56B60093011A /* FormalitiesReq */ = {
+			isa = PBXGroup;
+			children = (
+				D567906F247A56DE0093011A /* formalitiesReqViewController.swift */,
+			);
+			path = FormalitiesReq;
+			sourceTree = "<group>";
+		};
+		D5702D1F24D0579B00E2480F /* NotificationApproval */ = {
+			isa = PBXGroup;
+			children = (
+				D5702D2024D0580B00E2480F /* NotiAllowanceApprovalViewController.swift */,
+				D5702D2224D06F0A00E2480F /* NotiLeaveRequestApprovalViewController.swift */,
+				D5702D2424D0791500E2480F /* NotiDMSReqApprovalViewController.swift */,
+				D584966724D1451C00431F2D /* ApprovalTableViewCell.swift */,
+				D584966924D1683F00431F2D /* NotiReimbursmentApprovalViewController.swift */,
+				D586424124D2C4DB002219AA /* NotiFormalityApprovalViewController.swift */,
+				D5428B7724D9023E0094CCF8 /* NotiBusinessTravelReqApprovalViewController.swift */,
+			);
+			path = NotificationApproval;
+			sourceTree = "<group>";
+		};
+		D5866CAF24BC1803006C5B23 /* Allowance List */ = {
+			isa = PBXGroup;
+			children = (
+				D5866CB024BC182A006C5B23 /* allowanceListViewController.swift */,
+				D5866CB224BC1865006C5B23 /* allowanceListTableViewCell.swift */,
+			);
+			path = "Allowance List";
+			sourceTree = "<group>";
+		};
+		D5866CB424BC1DFA006C5B23 /* Reimbursment List */ = {
+			isa = PBXGroup;
+			children = (
+				D5866CB524BC1E1E006C5B23 /* ReimbursmentListViewController.swift */,
+				D5866CB724BC1E88006C5B23 /* ReimbursmentListTableViewCell.swift */,
+			);
+			path = "Reimbursment List";
+			sourceTree = "<group>";
+		};
+		D589E5172473B0600065BD8E /* DMS Request */ = {
+			isa = PBXGroup;
+			children = (
+				D589E5182473B07C0065BD8E /* dmsReqViewController.swift */,
+			);
+			path = "DMS Request";
+			sourceTree = "<group>";
+		};
+		D58C3E46251C5915000FD134 /* It-Support */ = {
+			isa = PBXGroup;
+			children = (
+				D58C3E47251C5947000FD134 /* ItSupportViewController.swift */,
+			);
+			path = "It-Support";
+			sourceTree = "<group>";
+		};
+		D58C3E49251C5B0A000FD134 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				D58C3E4A251C5B1F000FD134 /* TrainingViewController.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		D58D2C1C24B45CC200F2BF95 /* ProfileDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D571936925F629E700000C9C /* GoogleService-Info.plist */,
+				D53FEC5824B6BB9900A9632B /* Salary Slips */,
+				D58D2C2A24B5C46200F2BF95 /* Documents */,
+				D58D2C2724B5BFD800F2BF95 /* Accounting Info */,
+				D58D2C2424B5A75000F2BF95 /* Personal Info */,
+				D58D2C2124B586E500F2BF95 /* GeneralInfo */,
+				D58D2C1D24B45D1000F2BF95 /* profileDashboardViewController.swift */,
+				D58D2C1F24B45EC000F2BF95 /* profileCollectionViewCell.swift */,
+			);
+			path = ProfileDashboard;
+			sourceTree = "<group>";
+		};
+		D58D2C2124B586E500F2BF95 /* GeneralInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D58D2C2224B5871200F2BF95 /* generalInfoViewController.swift */,
+			);
+			path = GeneralInfo;
+			sourceTree = "<group>";
+		};
+		D58D2C2424B5A75000F2BF95 /* Personal Info */ = {
+			isa = PBXGroup;
+			children = (
+				D58D2C2524B5A77200F2BF95 /* personalInfoViewController.swift */,
+			);
+			path = "Personal Info";
+			sourceTree = "<group>";
+		};
+		D58D2C2724B5BFD800F2BF95 /* Accounting Info */ = {
+			isa = PBXGroup;
+			children = (
+				D58D2C2824B5C00000F2BF95 /* AccountingInfoViewController.swift */,
+			);
+			path = "Accounting Info";
+			sourceTree = "<group>";
+		};
+		D58D2C2A24B5C46200F2BF95 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				D58D2C2B24B5C50000F2BF95 /* DocumentsViewController.swift */,
+				D53FEC5624B6B76200A9632B /* DocumentTableViewCell.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		D5919E9D24BD6AC000DBD23B /* RequestViews */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC22CD252C34EB00A7F0E2 /* TrainingReqView */,
+				D5EC22CC252C34D500A7F0E2 /* IT-SupportReqView */,
+				D5C6159B24C6F2CE00EEA3AE /* FormalityReqView */,
+				D52B5B4B24BEF5340007FE3E /* Leave Request */,
+				D52B5B4824BECA860007FE3E /* BusinessTravelRequest */,
+				D52B5B4524BEB2170007FE3E /* Allowance Request */,
+				D5919EA524BDE93B00DBD23B /* Reimbursment Request */,
+				D5919E9E24BD6AD300DBD23B /* MyDMSReqView */,
+			);
+			path = RequestViews;
+			sourceTree = "<group>";
+		};
+		D5919E9E24BD6AD300DBD23B /* MyDMSReqView */ = {
+			isa = PBXGroup;
+			children = (
+				D5919E9F24BD6B2900DBD23B /* MyDMSReqViewViewController.swift */,
+				D5919EA124BD6D2000DBD23B /* MyDMSReqViewTableViewCell.swift */,
+			);
+			path = MyDMSReqView;
+			sourceTree = "<group>";
+		};
+		D5919EA524BDE93B00DBD23B /* Reimbursment Request */ = {
+			isa = PBXGroup;
+			children = (
+				D5919EA624BDE98C00DBD23B /* ReimbursmentReqViewViewController.swift */,
+			);
+			path = "Reimbursment Request";
+			sourceTree = "<group>";
+		};
+		D5B7B3E524BC27E100BB0DAD /* DMS List */ = {
+			isa = PBXGroup;
+			children = (
+				D5B7B3E624BC282900BB0DAD /* DMSListViewController.swift */,
+				D5B7B3E824BC29B500BB0DAD /* DMSListTableViewCell.swift */,
+			);
+			path = "DMS List";
+			sourceTree = "<group>";
+		};
+		D5C2FA4E251CB9DA00479365 /* TrainingList */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2FA50251CBA2900479365 /* TrainingListViewController.swift */,
+				D5EC22C8252C28AB00A7F0E2 /* trainingListTableViewCell.swift */,
+			);
+			path = TrainingList;
+			sourceTree = "<group>";
+		};
+		D5C2FA4F251CB9E700479365 /* ItSupportList */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2FA52251CBA4C00479365 /* ItsupportListViewController.swift */,
+				D5EC22CA252C2E5200A7F0E2 /* ItSupportTableViewCell.swift */,
+			);
+			path = ItSupportList;
+			sourceTree = "<group>";
+		};
+		D5C6159624C6EE3D00EEA3AE /* Formality list */ = {
+			isa = PBXGroup;
+			children = (
+				D5C6159724C6EE9200EEA3AE /* formalityListViewController.swift */,
+				D5C6159924C6EF4700EEA3AE /* formalityListTableViewCell.swift */,
+			);
+			name = "Formality list";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D5C6159B24C6F2CE00EEA3AE /* FormalityReqView */ = {
+			isa = PBXGroup;
+			children = (
+				D5C6159C24C6F30900EEA3AE /* formalityViewViewController.swift */,
+			);
+			path = FormalityReqView;
+			sourceTree = "<group>";
+		};
+		D5EBBAB3247A660800084DD3 /* DMS_Req_Approval */ = {
+			isa = PBXGroup;
+			children = (
+				D5EBBAB4247A664200084DD3 /* DMSReqApprovalViewController.swift */,
+			);
+			path = DMS_Req_Approval;
+			sourceTree = "<group>";
+		};
+		D5EC22CC252C34D500A7F0E2 /* IT-SupportReqView */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC22D0252C353200A7F0E2 /* ItSupportReqViewViewController.swift */,
+			);
+			path = "IT-SupportReqView";
+			sourceTree = "<group>";
+		};
+		D5EC22CD252C34EB00A7F0E2 /* TrainingReqView */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC22CE252C351900A7F0E2 /* TrainingReqViewViewController.swift */,
+			);
+			path = TrainingReqView;
+			sourceTree = "<group>";
+		};
+		E86BD503C5B5196A19740C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94449F00E3BC1B1BA122840 /* Pods_Alain.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +605,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D54C532B2472668D0017A431 /* Build configuration list for PBXNativeTarget "Alain" */;
 			buildPhases = (
+				96DDFE52DEB0F674797F8D55 /* [CP] Check Pods Manifest.lock */,
 				D54C53102472667A0017A431 /* Sources */,
 				D54C53112472667A0017A431 /* Frameworks */,
 				D54C53122472667A0017A431 /* Resources */,
+				4E3EAEC72E9038541B11B288 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +617,7 @@
 			);
 			name = Alain;
 			productName = Alain;
-			productReference = D54C53142472667A0017A431 /* Alain.app */;
+			productReference = D54C53142472667A0017A431 /* AAH-ESS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,6 +659,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54C53272472668D0017A431 /* LaunchScreen.storyboard in Resources */,
+				D571936A25F629E800000C9C /* GoogleService-Info.plist in Resources */,
 				D54C53242472668D0017A431 /* Assets.xcassets in Resources */,
 				D54C531F2472667A0017A431 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +667,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E3EAEC72E9038541B11B288 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alain/Pods-Alain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alain/Pods-Alain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alain/Pods-Alain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DDFE52DEB0F674797F8D55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D54C53102472667A0017A431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5702D2324D06F0A00E2480F /* NotiLeaveRequestApprovalViewController.swift in Sources */,
+				D5A2EE29248E368800F386FF /* NetworkManager.swift in Sources */,
 				D54C531C2472667A0017A431 /* ViewController.swift in Sources */,
+				D5C6159A24C6EF4700EEA3AE /* formalityListTableViewCell.swift in Sources */,
+				D5866CB624BC1E1E006C5B23 /* ReimbursmentListViewController.swift in Sources */,
+				D51C6FBD247BF50600100D12 /* BusinessTravelReqViewController.swift in Sources */,
+				D58D2C1E24B45D1000F2BF95 /* profileDashboardViewController.swift in Sources */,
+				D5C2FA53251CBA4C00479365 /* ItsupportListViewController.swift in Sources */,
+				D5919EA724BDE98C00DBD23B /* ReimbursmentReqViewViewController.swift in Sources */,
+				D54C53312472CE820017A431 /* FormTextField.swift in Sources */,
+				D5679070247A56DE0093011A /* formalitiesReqViewController.swift in Sources */,
+				D584966A24D1683F00431F2D /* NotiReimbursmentApprovalViewController.swift in Sources */,
+				D567906B247A44C30093011A /* reimbursementReqViewController.swift in Sources */,
 				D54C53182472667A0017A431 /* AppDelegate.swift in Sources */,
-				D54C531A2472667A0017A431 /* SceneDelegate.swift in Sources */,
+				D5866CB324BC1865006C5B23 /* allowanceListTableViewCell.swift in Sources */,
+				D50FD14624D43B5300711826 /* File.swift in Sources */,
+				D584966824D1451C00431F2D /* ApprovalTableViewCell.swift in Sources */,
+				D5EBBAB5247A664200084DD3 /* DMSReqApprovalViewController.swift in Sources */,
+				D589E514247383440065BD8E /* CustomTableViewCell.swift in Sources */,
+				D5428B7824D9023E0094CCF8 /* NotiBusinessTravelReqApprovalViewController.swift in Sources */,
+				D5866CB124BC182A006C5B23 /* allowanceListViewController.swift in Sources */,
+				D51C6FC0247BF56800100D12 /* LeaveReqViewController.swift in Sources */,
+				D58D2C2924B5C00000F2BF95 /* AccountingInfoViewController.swift in Sources */,
+				D58076F124C046F7008AC4B1 /* PickerExtension.swift in Sources */,
+				D589E5192473B07C0065BD8E /* dmsReqViewController.swift in Sources */,
+				D5919EA024BD6B2900DBD23B /* MyDMSReqViewViewController.swift in Sources */,
+				D5EC22D1252C353200A7F0E2 /* ItSupportReqViewViewController.swift in Sources */,
+				D5702D2124D0580B00E2480F /* NotiAllowanceApprovalViewController.swift in Sources */,
+				D54C532F2472CDBE0017A431 /* BorderColorTextfiled.swift in Sources */,
+				D51C6FBA247BF38E00100D12 /* Allowance_ReqViewController.swift in Sources */,
+				D56D19A424A314AE008540C8 /* AlertExtension.swift in Sources */,
+				D52B5B4A24BECAAA0007FE3E /* BusinessTravelViewViewController.swift in Sources */,
+				D5150AE72473ED6700DCC294 /* sideMenuViewController.swift in Sources */,
+				D589E516247383830065BD8E /* NotifiViewController.swift in Sources */,
+				D5B7B3E724BC282900BB0DAD /* DMSListViewController.swift in Sources */,
+				D58D2C2024B45EC000F2BF95 /* profileCollectionViewCell.swift in Sources */,
+				D52B5B4724BEB2470007FE3E /* AllowanceReqViewViewController.swift in Sources */,
+				D5919EA424BDDAA400DBD23B /* CustomClass.swift in Sources */,
+				D5866CB824BC1E88006C5B23 /* ReimbursmentListTableViewCell.swift in Sources */,
+				D52A10E624C3DC9700D20FE8 /* DMSApprovalCollectionViewCell.swift in Sources */,
+				D5A2EE22248DF1CC00F386FF /* ApiConstants.swift in Sources */,
+				D5702D2524D0791500E2480F /* NotiDMSReqApprovalViewController.swift in Sources */,
+				D5C6159824C6EE9200EEA3AE /* formalityListViewController.swift in Sources */,
+				D53FEC5724B6B76200A9632B /* DocumentTableViewCell.swift in Sources */,
+				D5EC22CB252C2E5200A7F0E2 /* ItSupportTableViewCell.swift in Sources */,
+				D58D2C2624B5A77200F2BF95 /* personalInfoViewController.swift in Sources */,
+				D58D2C2324B5871200F2BF95 /* generalInfoViewController.swift in Sources */,
+				D513462124BAC74000D2B6DE /* LeaveListsTableViewCell.swift in Sources */,
+				D5866CAE24BC0BEE006C5B23 /* BusinessTravelListsTableViewCell.swift in Sources */,
+				D53FEC5C24B71DA100A9632B /* BaseModel.swift in Sources */,
+				D58C3E4B251C5B1F000FD134 /* TrainingViewController.swift in Sources */,
+				D50FD14524D43B5300711826 /* BadgeBarButtonItem.swift in Sources */,
+				D59246A325009653009B3F09 /* forgotPasswordViewController.swift in Sources */,
+				D5EC22CF252C351900A7F0E2 /* TrainingReqViewViewController.swift in Sources */,
+				D524E53B24D5170300BE6D88 /* NotificationsTableViewCell.swift in Sources */,
+				D5B7B3E924BC29B500BB0DAD /* DMSListTableViewCell.swift in Sources */,
+				D5C2FA51251CBA2900479365 /* TrainingListViewController.swift in Sources */,
+				D567906D247A51DA0093011A /* TableviewAnimation.swift in Sources */,
+				D586424224D2C4DC002219AA /* NotiFormalityApprovalViewController.swift in Sources */,
+				D52B5B4D24BEF5550007FE3E /* LeaveRequestViewViewController.swift in Sources */,
+				D58D2C2C24B5C50000F2BF95 /* DocumentsViewController.swift in Sources */,
+				D55A604E24B9795B002166D7 /* LeavesListViewController.swift in Sources */,
+				D5EC22C9252C28AB00A7F0E2 /* trainingListTableViewCell.swift in Sources */,
+				D524E53924D516E800BE6D88 /* NotificationsViewController.swift in Sources */,
+				D56D19A224A2FDBA008540C8 /* TextFiledAlertExtension.swift in Sources */,
+				D50FD14724D43B5300711826 /* BadgeSwift.swift in Sources */,
+				D5C6159D24C6F30900EEA3AE /* formalityViewViewController.swift in Sources */,
+				D5919EA224BD6D2000DBD23B /* MyDMSReqViewTableViewCell.swift in Sources */,
 				D54C53222472667A0017A431 /* Alain.xcdatamodeld in Sources */,
+				D53FEC5A24B6BBBF00A9632B /* salarySlipsViewController.swift in Sources */,
+				D58076EF24C010EE008AC4B1 /* webViewViewController.swift in Sources */,
+				D513462424BADB5B00D2B6DE /* businessTravelListViewController.swift in Sources */,
+				D58C3E48251C5947000FD134 /* ItSupportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,37 +928,51 @@
 		};
 		D54C532C2472668D0017A431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89246EFFD42833C32BB4857 /* Pods-Alain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Alain/AAH-ESS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.5;
 				DEVELOPMENT_TEAM = B9M2K72QFT;
 				INFOPLIST_FILE = Alain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microexcel.Alain;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alainholding.AAHMA;
+				PRODUCT_NAME = "AAH-ESS";
+				PROVISIONING_PROFILE_SPECIFIER = JulyLatestDev;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D54C532D2472668D0017A431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CBF1E23625C179F6F201BD /* Pods-Alain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Alain/AAH-ESS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.5;
 				DEVELOPMENT_TEAM = B9M2K72QFT;
 				INFOPLIST_FILE = Alain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microexcel.Alain;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alainholding.AAHMA;
+				PRODUCT_NAME = "AAH-ESS";
+				PROVISIONING_PROFILE_SPECIFIER = JulyLatestDev;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
